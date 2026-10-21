@@ -1,2 +1,16 @@
-# Restaurant-Sentiment-Analysis-project-with-NLP
-Projet de Machine Learning et de Traitement du Langage Naturel (NLP) permettant d'analyser les sentiments (positifs ou négatifs) d'avis clients de restaurants. Le projet intègre un pipeline complet de prétraitement de texte (NLTK), une vectorisation par sac de mots (CountVectorizer) et un modèle de classification par Naive Bayes (Scikit-Learn).
+# Restaurant Reviews - Sentiment Analysis (NLP Case-Study)
+
+Ce projet réalise une analyse de sentiments sur des avis de restaurants en utilisant le traitement du langage naturel (**NLP**) et du Machine Learning en Python.
+
+## 🚀 Fonctionnalités
+- **Nettoyage du texte (Prétraitement) :** Suppression de la ponctuation, conversion en minuscules, élimination des mots vides (*stopwords*) et racinisation (*stemming*) avec NLTK.
+- **Vectorisation :** Utilisation de `CountVectorizer` (Bag of Words).
+- **Modélisation :** Entraînement d'un modèle de classification **Multinomial Naive Bayes**.
+- **Évaluation :** Calcul de la matrice de confusion, de l'exactitude (*accuracy*) et du rapport de classification.
+
+## 🛠️ Technologies utilisées
+- Python 3
+- Pandas & NumPy
+- Scikit-Learn
+- NLTK
+- Matplotlib & Seaborn
